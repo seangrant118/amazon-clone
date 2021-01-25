@@ -15,3 +15,8 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
 }
+
+.checkout__emptyBasket {
+  margin-top: 10px;
+  font-style: italic;
+}
