@@ -10,7 +10,13 @@ function Login() {
 
   const signIn = (e) => {
     e.preventDefault();
-    //Firebase logic
+
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        history.push("/");
+      })
+      .catch((err) => alert(err.message));
   };
 
   const register = (e) => {
