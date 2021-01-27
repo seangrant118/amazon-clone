@@ -12,6 +12,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./components/Orders";
 
+//public key
 const promise = loadStripe(
   "pk_test_51IEHohBgawjEi4bBiAJArShay7gJ5H94LAxfchdeObjXYixSh8XggstI7FTMFiQ5a1KdvVbrZNuseauaCmdXDLyG0087yJFvQF"
 );
