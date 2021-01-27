@@ -10,6 +10,7 @@ const stripe = require("stripe")(secret);
 const app = express();
 
 // Middlewares
+// eslint-disable-next-line object-curly-spacing
 app.use(cors({ origin: true }));
 app.use(express.json());
 
